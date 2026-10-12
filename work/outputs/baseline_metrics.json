@@ -1,0 +1,28 @@
+{
+  "total_pages_scored": 30000,
+  "flagged_candidates_count": 9759,
+  "flagged_pct": 32.53,
+  "score_max": 1863.774,
+  "score_top50_mean": 692.9005500000001,
+  "score_flagged_median": 8.668,
+  "rule_definition": {
+    "impressions_floor": 500,
+    "position_range": [
+      0.01,
+      20.0
+    ],
+    "ctr_threshold_pct": 0.5,
+    "reason_code": "low_ctr_visible_page",
+    "action_label": "review_metadata_and_serp"
+  },
+  "signals_checked": {
+    "signal_1": {
+      "name": "CTR decay across position tiers",
+      "verdict": "CONFIRMED"
+    },
+    "signal_2": {
+      "name": "Impression volume vs click reliability",
+      "verdict": "CONFIRMED"
+    }
+  }
+}
